@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="PhantomEngine">
+
+    <mainClass>source/phantom/Main.java</mainClass>
+
+    <source path="source"/>
+
+    <file>source/phantom/Main.java</file>
+
+    <window>
+        width="1280"
+        height="720"
+        title="Phantom Engine"
+        fps="60"
+    </window>
+</project>
