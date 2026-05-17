@@ -2,16 +2,31 @@
 
 <project name="PhantomEngine">
 
+    <!-- Main Class -->
     <mainClass>source/phantom/Main.java</mainClass>
 
-    <source path="source"/>
+    <!-- Source Folders -->
+    <source path="source" />
 
+    <!-- Java Files -->
     <file>source/phantom/Main.java</file>
+    <file>source/phantom/core/Game.java</file>
+    <file>source/phantom/render/Renderer.java</file>
+    <file>source/phantom/audio/AudioSystem.java</file>
+    <file>source/phantom/input/Input.java</file>
+    <file>source/phantom/scene/Scene.java</file>
 
-    <window>
+    <!-- Assets -->
+    <assets path="assets/images" />
+    <assets path="assets/sounds" />
+    <assets path="assets/music" />
+
+    <!-- Window -->
+    <window 
         width="1280"
         height="720"
         title="Phantom Engine"
         fps="60"
-    </window>
+    />
+
 </project>
